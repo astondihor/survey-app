@@ -1,0 +1,46 @@
+@require '../../../node_modules/vuetify/src/stylus/settings/_colors'
+
+$theme := {
+  primary: #009688
+  accent: #FFC107
+  secondary: #00796B
+  info: #B2DFDB
+  warning: $amber.base
+  error: $red.base
+  success: $green.base
+}
+
+@require '../../../node_modules/vuetify/src/stylus/settings/_variables'
+@require '../../../node_modules/vuetify/src/stylus/settings/_theme'
+
+
+
+@require '../../../node_modules/vuetify/src/stylus/tools/*'
+@require '../../../node_modules/vuetify/src/stylus/generic/*'
+@require '../../../node_modules/vuetify/src/stylus/elements/*'
+@require '../../../node_modules/vuetify/src/stylus/components/*'
+@require '../../../node_modules/vuetify/src/stylus/trumps/*'
+
+body
+  background-color: #f5f5f5
+
+.application--light .ac-footer
+  background-color: #333
+
+.top-bar
+  background: url(../assets/header_bar.png) top center;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  margin-left: 0 !important;
+
+.ac-toolbar 
+  border-bottom: 1px solid #ddddd4;
+  background: #efefe9 !important;
+
+.toolbar
+  box-shadow: none !important;
+

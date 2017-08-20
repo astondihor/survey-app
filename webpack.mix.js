@@ -11,5 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
+mix.autoload({
+  'jquery': ['$','jquery', 'jQuery', 'window.$', 'window.jQuery']
+});
+
 mix.js('resources/assets/js/app.js', 'public/js')
+   mix.stylus('resources/assets/stylus/main.styl', 'public/css')
    .sass('resources/assets/sass/app.scss', 'public/css');
