@@ -1,6 +1,9 @@
+.DS_Store
 vendor/
 node_modules/
 npm-debug.log
+yarn-error.log
+.phpstorm.meta.php
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -15,6 +18,7 @@ storage/*.key
 .env
 Homestead.yaml
 Homestead.json
+/.vagrant
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
